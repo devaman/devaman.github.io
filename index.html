@@ -1,23 +1,288 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resumee</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="resumee">
+<sidebar>
+<figure>
+	<img src="images/index.jpeg" width="290">
+	<figcaption>
+<span>Amit Chambial<sup>&reg;</sup></span>
+</figcaption>
+</figure>
+<ul>
+<li><a href="#about"><i class="fa fa-user" aria-hidden="true"></i>
+<label>About</label></a></li>
+<li><a href="#professional"><i class="fa fa-wrench" aria-hidden="true"></i>
+<label>Professional Skills</label></a></li>
+<li><a href="#expe"><i class="fa fa-briefcase" aria-hidden="true"></i>
+<label>Experience</label></a></li>
+<li><a href="#eduaction"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+<label>Education</label></a></li>
+<li><a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i>
+<label>Contact</label></a></li>
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+</ul>
+<div class="social">
+<a href="https://www.facebook.com/amitchambial5" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+<a href="https://twitter.com/amit_chambial" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+<a href="https://www.linkedin.com/in/amit-chambial-383847126/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 </div>
+<span style="padding: 0 0 0 90px;">
+&copy Copyright Amit
+</span>
+</sidebar>
+  <main>
+	  <section id="about">
+		  <div class="main-title">
+		  	<header>who am i</header>
+		  	<div class="divider">
+				<div class="svg">
+						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+							29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0; stroke:#cd5353;fill:none;stroke-width:5px;"></path>
+						</svg>
+				</div>
+			</div>
+		  </div>
+		  <div class="main-content">
+		  	<h1>Amit Chambial</h1>
+		  	<h2>Web Developer / Web Designer</h2>
+		  	<div class="Name">
+		  	<table>
+		  		<tr>
+			  		<td>Name</td>
+			  		<td>Amit Chambial</td>
+
+		  		</tr>
+		  		<tr>
+			  		<td> Date Of Birth</td>
+			  		<td>1 July 1997</td>
+
+		  		</tr>
+		  		<tr>
+			  		<td>Address</td>
+			  		<td>Pathankot,Punjab</td>
+
+		  		</tr>
+		  	</table>
+		  	 	<table>
+		  		<tr>
+			  		<td>Email</td>
+			  		<td>chambialamit@gmail.com</td>
+
+		  		</tr>
+		  		<tr>
+			  		<td>Phone No.</td>
+			  		<td>9465302084</td>
+
+		  		</tr>
+		  		<tr>
+			  		<td>College</td>
+			  		<td>NIT Hamirpur</td>
+
+		  		</tr>
+		  	</table>
+		  	</div>
+		  </div>	
+	  </section>
+	  <section id="professional">
+	  	 <div class="main-title">
+		  	<header>Professional Skills</header>
+		  	<div class="divider">
+				<div class="svg">
+						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+							29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0; stroke:#cd5353;fill:none;stroke-width:5px;"></path>
+						</svg>
+				</div>
+			</div>
+		  </div>
+		  <div class="main-content">
+		  <div class="category">
+			  	<div class="coding">
+				  	<div class="bar-grey">
+				  		<label>Linux</label>
+				  		<div class="bar-full">
+				  			<div class="per-75"></div>
+				  		</div>
+				  	</div>
+				  	<div class="bar-red">
+				  		<label>HTML / CSS / Bootstrap </label>
+				  		<div class="bar-full">
+				  			<div class="per-75"></div>
+				  		</div>
+				  	</div>
+				  	<div class="bar-red">
+				  		<label>Javascript</label>
+				  		<div class="bar-full">
+				  			<div class="per-50"></div>
+				  		</div>
+				  	</div>
+				  	<div class="bar-red">
+				  		<label>Ruby / Rails</label>
+				  		<div class="bar-full">
+				  			<div class="per-75"></div>
+				  		</div>
+				  	</div>
+				  	<div class="bar-red">
+				  		<label>Sinatra</label>
+				  		<div class="bar-full">
+				  			<div class="per-75"></div>
+				  		</div>
+				  	</div>
+				  
+				  </div>
+				<label class="cat-name">CODING</label>
+			</div>
+			<div class="category">
+			  	<div class="assets">
+				  	<div class="bar-red">
+				  		<label>Responsible</label>
+				  		<div class="bar-full">
+				  			<div class="per-80"></div>
+				  		</div>
+				  	</div>
+				  	<div class="bar-red">
+				  		<label>Creative</label>
+				  		<div class="bar-full">
+				  			<div class="per-75"></div>
+				  		</div>
+				  	</div>
+				  	<div class="bar-red">
+				  		<label>Multitasking</label>
+				  		<div class="bar-full">
+				  			<div class="per-50"></div>
+				  		</div>
+				  	</div>
+				  	<div class="bar-red">
+				  		<label>Leadership Quality</label>
+				  		<div class="bar-full">
+				  			<div class="per-75"></div>
+				  		</div>
+				  	</div>				  
+				  </div>
+				<label class="cat-name">ASSETS</label>
+			</div>
+		  </div>
+	  </section>
+	  <section id="expe">
+	  	 <div class="main-title">
+		  	<header>Experience</header>
+		  	<div class="divider">
+				<div class="svg">
+						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+							29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0; stroke:#cd5353;fill:none;stroke-width:5px;"></path>
+						</svg>
+				</div>
+			</div>
+		  </div>
+		  <div class="main-content flx">
+			  <div class="experience">
+			  	<i class="fa fa-briefcase favi" aria-hidden="true"></i>	
+			  	<div class="exp-bar"></div>
+			  </div>
+			  <div class="exp-content">
+			  	<div class="bookmark"></div>
+			  	<header>WebDesigner Course</header>
+			  	<time><i class="fa fa-calendar-o" aria-hidden="true"></i> June 2017<label>Current</label></time>
+			  	<content>
+			  		Learning advance HTML/CSS and Javascript ,Bootstrap for front-end development.For back-end learning Ruby , Rails, Sinatra.Ruby on Rails, or simply Rails, is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages. 
+			  	</content>
+			  	<br><br><br><br><br>
+			  	<div class="bookmark"></div>
+
+			  	<header>Java Core Course</header>
+			  	<time><i class="fa fa-calendar-o" aria-hidden="true"></i> June 2016</time>
+			  	<content>
+			  		Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere" (WORA),meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.Learned basic about function,classes,inheritance,Java applets,
+			  		awt,swing.Made Project on Mall Billing system.
+			  	</content>
+
+			  	
+			  				  	<br><br><br><br><br>
+			  	<div class="bookmark"></div>
+			  	<header>Member Of Team EXE </header>
+			  	<time><i class="fa fa-calendar-o" aria-hidden="true"></i> Jan 2016</time>
+			  	<content>
+			  		It is a departmental team of Computer Science & Engineering Department for Techfest NIMBUS.We are passionate about technology & our curiousity drives us towards the development of new things and taking new projects.Made Exeplore Game(Game made on java),Contributed in development of various projects.
+			  	</content>
+			  </div>
+		  </div>
+		  </section>
+		  <section id="eduaction">
+	  	 <div class="main-title">
+		  	<header>Education</header>
+		  	<div class="divider">
+				<div class="svg">
+						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+							29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0; stroke:#cd5353;fill:none;stroke-width:5px;"></path>
+						</svg>
+				</div>
+			</div>
+		  </div>
+		  <div class="main-content flx">
+			  <div class="experience">
+			  	<i class="fa fa-graduation-cap favi" aria-hidden="true" style="font-size: 20px; border-radius: 40px;padding: 12px 10px "></i></i>	
+			  	<div class="exp-bar" style="height: 460px;"></div>
+			  </div>
+			  <div class="exp-content">
+			  	<div class="bookmark"></div>
+			  	<header>Btech-NIT Hamirpur</header>
+			  	<time><i class="fa fa-calendar-o" aria-hidden="true"></i> June 2017<label>Current</label></time>
+			  	<content>
+			  		Pursuing Computer Science and Engineering.<br>Current Year- 3<sup>rd</sup><br> CGPA - 8.93.
+			  	</content>
+			  	<br><br><br><br><br>
+			  	<div class="bookmark"></div>
+
+			  	<header>Senior Secondary</header>
+			  	<time><i class="fa fa-calendar-o" aria-hidden="true"></i> June 2016</time>
+			  	<content>
+			  		School-M.D.K Senior Secondary School,Pathankot.<br>Passed with 95%(non-medical).
+			  	</content>
+
+			  	
+			  				  	<br><br><br><br><br>
+			  	<div class="bookmark"></div>
+			  	<header>Secondary School</header>
+			  	<time><i class="fa fa-calendar-o" aria-hidden="true"></i> Jan 2016</time>
+			  	<content>
+			  		School-Angel's Public School,Pathankot.<br>Passed with 9.8 CGPA.
+			  	</content>
+			  </div>
+		  </div>
+		  </section>
+		  <div class="end">
+		  <div class="divider">
+				<div class="svg">
+						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+							29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0; stroke:#cd5353;fill:none;stroke-width:5px;"></path>
+						</svg>
+				</div>
+			</div>
+			</div>
+			<section id="contact">
+				<header style="text-align: center;padding:10px;   ">Contact Me</header>
+				<form action="https://formspree.io/chambialamit@gmail.com"
+      method="POST" style="display: block;">
+      				<label>Name:</label>
+					<input type="text" name="name"><br>
+      				<label>Email :</label> 
+					<input type="email" name="_replyto"><br>
+      				<label>Message:</label>
+					<textarea rows="5" cols="26" name="message"></textarea><br><br>
+					<input type="submit" value="Send">
+				</form>
+			</section>
+  </main>
+  </div>
+</body>
+</html>

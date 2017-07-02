@@ -1,0 +1,412 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	padding-top: 5%;
+	background-color: #efefef;
+	display: flex;
+	justify-content: space-around;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+div.resumee {
+	height: 2900px;
+	width: 1200px;
+	display: flex;
+}
+div.resumee sidebar{
+	background-color: #ffffff;
+	margin-right: 10px; 
+	height: 675px;
+	width: 290px;
+	position: fixed;
+	box-shadow: 0 5px 10px grey;
+	border-radius: 40px;
+
+}
+div.resumee main{
+	background-color: #ffffff;
+	height: 2900px;
+	width: 900px;
+	margin-left: 300px;
+	box-shadow: 0 0 10px grey;
+	margin-bottom: 100px;
+	
+}
+div.resumee sidebar figure figcaption span{
+	color: white;
+	opacity: 0.95;
+background: linear-gradient(to left, rgba(51,55,61,1) 0%,rgba(51,55,61,0) 100%);
+padding: 1px 15px 1px 30px;
+	text-transform: uppercase;
+
+
+}
+div.resumee sidebar figure figcaption{
+    top: 27%;
+    left: -29%;
+	position: absolute;
+		
+			transform: rotate(-90deg);
+}
+div.resumee sidebar figure{
+	position: relative;
+	height: 291px;
+}
+div.resumee sidebar ul{
+	display:block;
+
+}
+div.resumee sidebar ul li a{/*
+	border-left: 1px solid white;
+	border-right: 1px solid white;*/
+	text-decoration: none;
+
+	display: flex;
+	list-style: none;
+	background-color: #33373D;
+	border-radius: 5px;
+	align-items: center;
+	color: lightgrey;
+	justify-content: space-between;
+	height: 50px;
+	margin-bottom: 2px;
+	padding: 5px 20px;
+	font-size: 12px;
+	box-shadow:0 0 5px black;
+
+}
+div.resumee sidebar ul li a:hover{
+background-color: #CD5353;
+color: white;
+
+}
+div.resumee sidebar ul li{
+	list-style: none;
+	text-decoration: none;
+}
+div.resumee sidebar ul li label{
+	font-weight:600;
+	text-transform: uppercase;
+}
+div.resumee sidebar ul li i{
+	font-size: 32px;
+}
+div.resumee sidebar div.social{
+	font-size: 32px;
+	padding-left: 30%;
+	align-items: center;
+}
+div.resumee sidebar div.social a i{
+	margin: 5px;
+	color: black;
+}
+div.resumee sidebar div.social a i:hover{
+	color: grey;
+}
+div.resumee sidebar div.social a{
+	text-decoration: none;
+}
+div.resumee sidebar span{
+	padding: 65px;
+	color: grey;
+}
+div.resumee main header{
+	font-weight: 600;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+div.resumee main section div.divider{
+	       left: 40px;
+    position: absolute;
+    top: 50px;
+}
+div.resumee main div.main-title {
+	    padding: 30px 10px 11px 40px;
+    position: relative;
+        border-bottom: 1px solid #efefef;
+}
+div.resumee main div.main-content{
+	padding: 30px 50px 11px 40px;
+
+}
+div.resumee main div.main-content h1{
+text-transform: uppercase;
+font-size: 2em;
+}
+div.resumee main div.main-content h2{
+	font-weight: 100;
+	text-transform: uppercase;
+	color: grey;
+
+}
+div.resumee main div.main-content div.Name{
+	display:flex;
+	justify-content: space-between;
+}
+div.resumee main div.main-content div.Name table{
+	margin-top: 50px;
+	border:1px solid lightgrey;
+	/*border-radius: 10px;*/
+border-spacing: 0px;
+
+}
+div.resumee main div.main-content div.Name table tr td:first-of-type{
+border-right: 1px solid lightgrey;
+font-weight: 600;
+box-sizing: border-box;
+/*border-radius: 10px;*/
+
+}
+div.resumee main div.main-content div.Name table tr td:first-of-type+td{
+background-color:#FAFAFA;
+text-align: center;
+width: 230px;
+}
+div.resumee main div.main-content div.Name table tr:first-of-type td{
+border-top: none;
+}
+div.resumee main div.main-content div.Name table tr td{
+padding: 10px 15px 10px 15px;
+border-top: 1px solid lightgrey;
+}
+div.resumee main div.main-content div.Name table tr:first-of-type{
+border-top: none;
+
+}
+div.resumee main div.main-content div.category{
+	display: flex;
+	width: 812px;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+div.resumee main div.main-content div.coding div.bar-grey{
+	width: 700px;
+}
+div.resumee main div.main-content div.coding div.bar-grey label{
+	color: grey;
+	font-weight: 600;
+
+}
+div.resumee main div.main-content div.coding div.bar-grey div.bar-full{
+	margin-top: 10px;
+	height: 20px;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+}
+div.resumee main div.main-content div.coding div.bar-grey div.bar-full div.per-75{
+	border-left-left-radius: 9px;
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+	height: 22px;
+	background-color: lightgrey;
+	width: 75%;
+
+}
+div.resumee main div.main-content div.coding div.bar-red{
+	margin-top: 10px;
+	width: 700px;
+
+}
+div.resumee main div.main-content div.coding div.bar-red label{
+	color: #CD5353;
+	font-weight: 600;
+
+}
+div.resumee main div.main-content div.coding div.bar-red div.bar-full{
+	margin-top: 10px;
+	height: 20px;
+	border: 1px solid #CD5353;
+	border-radius: 10px;
+}
+div.resumee main div.main-content div.coding div.bar-red div.bar-full div.per-40{
+	border-left-left-radius: 9px;
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+	height: 22px;
+	background-color: #CD5353;
+	width: 40%;
+
+}
+div.resumee main div.main-content div.coding div.bar-red div.bar-full div.per-50{
+	border-left-left-radius: 9px;
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+	height: 22px;
+	background-color: #CD5353;
+	width: 50%;
+
+}
+div.resumee main div.main-content div.coding div.bar-red div.bar-full div.per-75{
+	border-left-left-radius: 9px;
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+	height: 22px;
+	background-color: #CD5353;
+	width: 75%;
+
+}
+div.resumee main div.main-content div.category div.coding + label.cat-name{
+	transform: rotate(90deg);
+	padding: 5px 10px;
+	color: grey;
+	font-weight: 600;
+	font-size: 20px;
+	border: 2px dashed lightgrey;
+	height: 22px;
+}
+/**/
+div.resumee main div.main-content div.assets div.bar-red{
+	margin-top: 10px;
+	width: 700px;
+
+}
+div.resumee main div.main-content div.assets div.bar-red label{
+	color: #33373D;
+	font-weight: 600;
+
+}
+div.resumee main div.main-content div.assets div.bar-red div.bar-full{
+	margin-top: 10px;
+	height: 20px;
+	border: 1px solid #33373D;
+	border-radius: 10px;
+}
+div.resumee main div.main-content div.assets div.bar-red div.bar-full div.per-40{
+	border-left-left-radius: 9px;
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+	height: 22px;
+	background-color:#33373D;
+	width: 40%;
+
+}
+div.resumee main div.main-content div.assets div.bar-red div.bar-full div.per-50{
+	border-left-left-radius: 9px;
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+	height: 22px;
+	background-color: #33373D;
+	width: 50%;
+
+}
+div.resumee main div.main-content div.assets div.bar-red div.bar-full div.per-75{
+	border-left-left-radius: 9px;
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+	height: 22px;
+	background-color:#33373D;
+	width: 75%;
+
+}
+div.resumee main div.main-content div.assets div.bar-red div.bar-full div.per-80{
+	border-left-left-radius: 9px;
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+	height: 22px;
+	background-color:#33373D;
+	width: 80%;
+
+}
+div.resumee main div.main-content div.category div.assets + label.cat-name{
+	transform: rotate(90deg);
+	padding: 5px 10px;
+	color: grey;
+	font-weight: 600;
+	font-size: 20px;
+	border: 2px dashed #33373D;
+	height: 22px;
+}
+div.resumee main div.main-content i.favi{
+	border:3px solid #ededed;
+	border-radius: 30px;
+	padding: 10px;
+	font-size: 25px;
+	color: #333333;
+}
+div.resumee main div.main-content div.exp-bar{
+	width: 3px;
+	margin-left: 23px;
+	height: 600px;
+	background:linear-gradient(to bottom, #ededed 1%,#ededed 75%,#ffffff 100%);
+}
+.flx{
+	display: flex;
+
+}
+div.resumee main div.main-content div.exp-content{
+	padding-top: 80px;
+	position: relative;
+}
+div.resumee main div.main-content div.exp-content div.bookmark{
+	    left: -37px;
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	border-radius: 10px;
+	border: 3px solid white;
+	background-color: #CD5353;
+}
+div.resumee main div.main-content div.exp-content time{
+	display: block;
+	color: grey;
+	font-style: italic;
+	margin-top: 5px;
+
+}
+div.resumee main div.main-content div.exp-content content{
+	margin-top: 5px;
+	color: grey;
+	word-spacing: 2px;
+	text-align: justify;
+}
+div.resumee main div.main-content div.exp-content time label{
+	background-color: #CD5353;
+	margin-left: 4px;
+	padding: 0px 3px;
+	color: white;
+	border-radius: 5px;
+
+}
+div.resumee main div.end{
+	margin-top: 100px;
+	position: relative;
+	border-bottom: 1px solid lightgrey; 
+}
+div.resumee main div.divider{
+    left: 417px;
+    position: absolute;
+    top: -13.5px;
+
+}
+#contact{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #CD5353;
+	border-radius: 10px;
+	padding: 10px;
+	margin:20px;
+	font-size: 20px;
+	color: white;
+}
+#contact input[type="text"],#contact input[type="email"]{
+	width: 200px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	height:20px;
+	padding-left: 10px;
+	padding-right:10px;
+	margin-left: 25px;
+}
+
+#contact textarea{
+	border-radius: 10px;
+	padding: 5px;
+}
+#contact input[type="submit"]{
+	width: 330px;
+	height: 40px;
+	border-radius: 10px;
+}
