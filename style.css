@@ -130,6 +130,9 @@ div.resumee main div.main-content{
 	padding: 30px 50px 11px 40px;
 
 }
+div.resumee main section{
+	transition-duration: 1s;
+} 
 div.resumee main div.main-content h1{
 text-transform: uppercase;
 font-size: 2em;
