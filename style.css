@@ -17,7 +17,7 @@ div.resumee {
 div.resumee sidebar{
 	background-color: #ffffff;
 	margin-right: 10px; 
-	height: 675px;
+	height: 730px;
 	width: 290px;
 	position: fixed;
 	box-shadow: 0 5px 10px grey;
@@ -26,7 +26,7 @@ div.resumee sidebar{
 }
 div.resumee main{
 	background-color: #ffffff;
-	height: 2900px;
+	height: 3647px;
 	width: 900px;
 	margin-left: 300px;
 	box-shadow: 0 0 10px grey;
