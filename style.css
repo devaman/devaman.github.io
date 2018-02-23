@@ -26,7 +26,7 @@ div.resumee sidebar{
 }
 div.resumee main{
 	background-color: #ffffff;
-	height: 3647px;
+	height: 3847px;
 	width: 900px;
 	margin-left: 300px;
 	box-shadow: 0 0 10px grey;
@@ -125,13 +125,19 @@ div.resumee main div.main-title {
 	    padding: 30px 10px 11px 40px;
     position: relative;
         border-bottom: 1px solid #efefef;
+	box-sizing: border-box;
+
 }
 div.resumee main div.main-content{
 	padding: 30px 50px 11px 40px;
+	box-sizing: border-box;
+
 
 }
 div.resumee main section{
 	transition-duration: 1s;
+	box-sizing: border-box;
+
 } 
 div.resumee main div.main-content h1{
 text-transform: uppercase;
@@ -341,6 +347,8 @@ div.resumee main div.main-content div.exp-bar{
 div.resumee main div.main-content div.exp-content{
 	padding-top: 80px;
 	position: relative;
+	box-sizing: border-box;
+
 }
 div.resumee main div.main-content div.exp-content div.bookmark{
 	    left: -37px;
@@ -384,6 +392,11 @@ div.resumee main div.divider{
 
 }
 #contact{
+	height: 306px;
+}
+#contact div{
+	height: 306px;
+	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -394,7 +407,7 @@ div.resumee main div.divider{
 	font-size: 20px;
 	color: white;
 }
-#contact input[type="text"],#contact input[type="email"]{
+#contact div input[type="text"],#contact div input[type="email"]{
 	width: 200px;
 	border-radius: 10px;
 	margin-bottom: 20px;
@@ -404,11 +417,11 @@ div.resumee main div.divider{
 	margin-left: 25px;
 }
 
-#contact textarea{
+#contact div textarea{
 	border-radius: 10px;
 	padding: 5px;
 }
-#contact input[type="submit"]{
+#contact div input[type="submit"]{
 	width: 330px;
 	height: 40px;
 	border-radius: 10px;
