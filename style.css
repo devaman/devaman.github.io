@@ -2,8 +2,11 @@
 	margin: 0;
 	padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 body{
-	padding-top: 5%;
+	padding-top: 50px;
 	background-color: #efefef;
 	display: flex;
 	justify-content: space-around;
@@ -17,7 +20,7 @@ div.resumee {
 div.resumee sidebar{
 	background-color: #ffffff;
 	margin-right: 10px; 
-	height: 730px;
+	height: 800px;
 	width: 290px;
 	position: fixed;
 	box-shadow: 0 5px 10px grey;
@@ -26,7 +29,7 @@ div.resumee sidebar{
 }
 div.resumee main{
 	background-color: #ffffff;
-	height: 3847px;
+	height: 4647px;
 	width: 900px;
 	margin-left: 300px;
 	box-shadow: 0 0 10px grey;
@@ -94,7 +97,7 @@ div.resumee sidebar ul li i{
 }
 div.resumee sidebar div.social{
 	font-size: 32px;
-	padding-left: 30%;
+	padding-left: 90px;
 	align-items: center;
 }
 div.resumee sidebar div.social a i{
@@ -328,15 +331,15 @@ div.resumee main div.main-content div.category div.assets + label.cat-name{
 	height: 22px;
 }
 div.resumee main div.main-content i.favi{
-	border:3px solid #ededed;
-	border-radius: 30px;
-	padding: 10px;
-	font-size: 25px;
-	color: #333333;
+	border: 3px solid #ededed;
+border-radius: 50%;
+padding: 14px;
+font-size: 19px;
+color: #333333;
 }
 div.resumee main div.main-content div.exp-bar{
 	width: 3px;
-	margin-left: 23px;
+	margin-left: 21px;
 	height: 600px;
 	background:linear-gradient(to bottom, #ededed 1%,#ededed 75%,#ffffff 100%);
 }
