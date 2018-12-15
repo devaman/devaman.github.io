@@ -1,32 +1,28 @@
 {
   "assetsByChunkName": {
-    "path---git-tutorial": [
-      "path---git-tutorial-026d482836317ec012dc.js",
-      "path---git-tutorial-026d482836317ec012dc.js.map"
-    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-aa9570313651ef926b5a.js",
       "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
     ],
-    "path---git-pull-request": [
-      "path---git-pull-request-83cf48a8b2924c0bf927.js",
-      "path---git-pull-request-83cf48a8b2924c0bf927.js.map"
-    ],
     "path---": [
-      "path----5b07cbc3eb85eef642bd.js",
-      "path----5b07cbc3eb85eef642bd.js.map"
+      "path----5691ba9d234f9443f3ee.js",
+      "path----5691ba9d234f9443f3ee.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-482197f18d82568000d1.js",
       "component---src-pages-contact-js-482197f18d82568000d1.js.map"
+    ],
+    "path---2018-11-26-git-pull-request": [
+      "path---2018-11-26-git-pull-request-adfb80c955a03cb5b637.js",
+      "path---2018-11-26-git-pull-request-adfb80c955a03cb5b637.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-dab0557870a77e0da64b.js",
-      "component---src-layouts-index-js-dab0557870a77e0da64b.js.map"
+      "component---src-layouts-index-js-39644347ac3671308604.js",
+      "component---src-layouts-index-js-39644347ac3671308604.js.map"
     ],
     "path---index": [
       "path---index-d9edfb7dc08bd26c23b9.js",
@@ -36,10 +32,14 @@
       "component---src-pages-search-js-26299662d410ed81dc17.js",
       "component---src-pages-search-js-26299662d410ed81dc17.js.map"
     ],
+    "path---2018-12-15-decentralised-alternatives": [
+      "path---2018-12-15-decentralised-alternatives-e13fda830f7de9fbeecd.js",
+      "path---2018-12-15-decentralised-alternatives-e13fda830f7de9fbeecd.js.map"
+    ],
     "commons": [
-      "commons-ee2a362aae9360d25cd3.js",
+      "commons-051d8473515e037921aa.js",
       "build-js-styles.css",
-      "commons-ee2a362aae9360d25cd3.js.map",
+      "commons-051d8473515e037921aa.js.map",
       "build-js-styles.css.map"
     ],
     "path---success": [
@@ -63,9 +63,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-6c0fb5de02daf4295325.js",
+      "app-2607baa65ece3b186225.js",
       "build-js-styles.css",
-      "app-6c0fb5de02daf4295325.js.map",
+      "app-2607baa65ece3b186225.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [
@@ -75,6 +75,10 @@
     "path---search": [
       "path---search-84269fabafea3eec14cf.js",
       "path---search-84269fabafea3eec14cf.js.map"
+    ],
+    "path---2018-08-05-git-tutorial": [
+      "path---2018-08-05-git-tutorial-145127fcd18beef6fa42.js",
+      "path---2018-08-05-git-tutorial-145127fcd18beef6fa42.js.map"
     ],
     "path---about": [
       "path---about-b9fc715445a85a47ce25.js",
