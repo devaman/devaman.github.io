@@ -102,7 +102,7 @@ exports.modules = {
 	        { className: classes.links },
 	        _react2.default.createElement(
 	          _reactShare.TwitterShareButton,
-	          { url: url, title: title },
+	          { url: url, title: title + " by @amit_chambial" },
 	          _react2.default.createElement(_reactShare.TwitterIcon, { round: true, size: iconSize })
 	        ),
 	        _react2.default.createElement(
